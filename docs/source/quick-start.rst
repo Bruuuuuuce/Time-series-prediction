@@ -11,7 +11,7 @@ Installation
 Install `time series tfts <https://github.com/LongxingTan/Time-series-prediction>`_, follow the installation instructions first
 
 * Python 3.7+
-* `TensorFlow 2.0 <https://www.tensorflow.org/install/pip>`_ installation instructions
+* `TensorFlow 2.x <https://www.tensorflow.org/install/pip>`_ installation instructions
 
 Now you are ready, proceed with
 
@@ -42,6 +42,8 @@ The general setup for training and testing a model is
 #. Train the model on the training dataset and check if it has converged with acceptable accuracy
 #. Tune the hyper-parameters of the model and training
 #. Load the model from the model checkpoint and apply it to new data
+
+If you prefer other DL frameworks, try `pytorch-forecasting <https://github.com/jdb78/pytorch-forecasting>`_, `gluonts <https://github.com/awslabs/gluonts>`_, `paddlets <https://github.com/PaddlePaddle/PaddleTS>`_
 
 Example
 ~~~~~~~~~~~~~
